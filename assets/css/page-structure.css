@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
+    background: rgb(244, 244, 244);
+    background: -moz-linear-gradient(319deg, rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(319deg, rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(319deg, rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4", endColorstr="#ffffff", GradientType=1);
+}
+
+section {
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+
+#intro-section {
+    padding-top: 0;
+}
+
+.intro-container {
+    padding-top: 15%;
+}
+
+#intro-section::after {
+    content: "";
+    background-image: url("../images/content/currency-market.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #0071bc;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #0c2428;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-nav li.active > a {
+    color: #0071bc !important;
+    text-decoration: none !important;
+}
+
+.navbar-nav li > a {
+    color: #0c2428 !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #0071bc !important;
+    transition: background 0.3s ease-in;
+    text-decoration: none !important;
+}
