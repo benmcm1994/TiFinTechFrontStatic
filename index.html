@@ -13,14 +13,22 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/page-structure.css">
+    <link rel="stylesheet" href="assets/css/page-content.css">
     <link rel="stylesheet" href="assets/css/component.css">
 
     <!-- Font CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins:700&display=swap" rel="stylesheet">
 
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
 </head>
 <body>
-<section id="intro-section" data-aos="fade-in">
+<section id="intro">
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid py-2">
             <a class="navbar-brand" href="/">
@@ -34,22 +42,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#hero-section">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-section">About us</a>
+                        <a class="nav-link" href="#about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#product-section">Products</a>
+                        <a class="nav-link" href="#product">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tech-section">Technologies</a>
+                        <a class="nav-link" href="#technologies">Technologies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog-section">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-section">Contact us</a>
+                        <a class="nav-link" href="#contact">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -59,9 +64,173 @@
     <div class="container intro-container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1>
-                    <div class="display-3">Modern SaaS Solutions for the Financial Industry</div>
-                </h1>
+                <h1>SaaS Solutions for the Financial Industry</h1>
+                <p>Creating powerful web applications in the cloud</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container about-container">
+        <div class="row justify-content-md-center ">
+            <div class="col-12 text-center">
+                <h1>Who are we?</h1>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+                <i class="icon ion-md-contacts"></i>
+                <h3>Customer Focused</h3>
+                <p>We design and improve products based on your feedback, just contact us.</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+                <i class="icon ion-md-globe"></i>
+                <h3>Web Based</h3>
+                <p>We create modern web apps, designed for desktop, mobile and tablet.</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+                <i class="icon ion-md-cloudy"></i>
+                <h3>Cloud Hosted</h3>
+                <p>We manage the Virtual Private Servers, so you don't have to.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product">
+    <div class="container product-container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Products</h1>
+            </div>
+        </div>
+        <div class="product">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center d-flex align-items-stretch">
+                    <img class="img-fluid mx-auto d-block" src="assets/images/content/stt.png">
+                </div>
+                <div class="col-12 col-lg-6 text-left my-auto">
+                    <h3>Social Trader Tools</h3>
+                    <p>A web based platform for anyone that uses MT4. Hosted in the cloud 24/7 without the hassle of
+                        a
+                        VPS,
+                        allowing you to copy trades to any amount of trading accounts and much more.</p>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-list-box"></i>
+                        <h5>Account Manager</h5>
+                        <p>Manage unlimited amounts of MT4/5 accounts from any broker, in one location.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-ios-copy"></i>
+                        <h5>Trade Copier</h5>
+                        <p>Copy trades to and from accounts with the fastest copier on the market.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-wifi"></i>
+                        <h5>Signal Provider</h5>
+                        <p>Allow others to copy your trades for FREE or for CASH by showcasing your results on a
+                            signal
+                            page.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-brush"></i>
+                        <h5>Whitelabel</h5>
+                        <p>Whitelabel the platform with a new or existing business, with style options, your
+                            logo,
+                            your
+                            specific brokers and affiliate links.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-left my-auto">
+                    <h3>TradeSync API</h3>
+                    <p>A web based platform developed primarily for developers wishing to manage accounts, copy
+                        trades,
+                        track commands and much more.</p>
+                    <p>The API follows the principles of a RESTful web service
+                        wherever
+                        possible and consists of a series of http endpoints, that allows you to programmatically
+                        control
+                        your Tradesync account. Build your own business with our backend account management and
+                        trade copier
+                        technology!</p>
+                </div>
+                <div class="col-12 col-lg-6 text-center d-flex align-items-stretch">
+                    <img class="img-fluid mx-auto d-block" src="assets/images/content/tradesync-api.png">
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-list-box"></i>
+                        <h5>Account Manager</h5>
+                        <p>Manage unlimited amounts of MT4/5 accounts from any broker, in one location.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-ios-copy"></i>
+                        <h5>Trade Copier</h5>
+                        <p>Copy trades to and from accounts with the fastest copier on the market.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-laptop"></i>
+                        <h5>Web based platform</h5>
+                        <p>Visually manage accounts and copiers with our web platform and its responsive GUI.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-md-code"></i>
+                        <h5>API</h5>
+                        <p>Manage unlimited accounts and copy trades using the developer REST API.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <i class="icon ion-ios-book"></i>
+                        <h5>Detailed Docs</h5>
+                        <p>Detailed API documentation outlining each endpoint with their function, parameters and
+                            responses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="technologies">
+    <div class="container" id="technologies-container">
+        <div class="row">
+            <div class="col-12 text-center">
+                Technologies
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container" id="contact-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Contact
+                </div>
             </div>
         </div>
     </div>

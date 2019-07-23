@@ -1,0 +1,45 @@
+/* Navbar */
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-nav li.active > a {
+    color: #0071bc !important;
+    text-decoration: none !important;
+}
+
+.navbar-nav li > a {
+    color: #0c2428 !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #0071bc !important;
+    transition: background 0.3s ease-in;
+    text-decoration: none !important;
+}
+
+.product-card {
+    -webkit-backface-visibility: hidden; /* the magic ingredient */
+    -moz-transform: skew(-8deg, 0deg);
+    -webkit-transform: skew(-8deg, 0deg);
+    -o-transform: skew(-8deg, 0deg);
+    -ms-transform: skew(-8deg, 0deg);
+    transform: skew(-8deg, 0deg);
+}
+
+.product-card img {
+    position: relative;
+    width: 100%;
+}
+
+/*Phones */
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-brand {
+        width: 55%;
+    }
+}
+
+
