@@ -45,7 +45,8 @@
 .about-container h1,
 .about-container h3,
 .about-container p,
-#contact h1 {
+#contact h1,
+#technologies h1 {
     color: #f1f1f0;
 }
 

@@ -1,5 +1,9 @@
 /* Navbar */
 
+.navbar {
+    z-index: 1000;
+}
+
 .navbar-light .navbar-toggler {
     border: none;
 }
@@ -43,6 +47,10 @@
 
     .navbar-brand {
         width: 55%;
+    }
+
+    .contact-form {
+        padding-top: 10px;
     }
 }
 
