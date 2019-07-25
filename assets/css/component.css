@@ -33,6 +33,10 @@
     width: 100%;
 }
 
+.background-primary {
+    background: #0071bc;
+}
+
 /*Phones */
 
 @media only screen and (max-width: 600px) {

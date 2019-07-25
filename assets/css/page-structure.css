@@ -11,6 +11,8 @@ body {
 section {
     padding-top: 11%;
     padding-bottom: 11%;
+    position: relative;
+    overflow: hidden;
 }
 
 @media (min-width: 1200px) {
@@ -21,6 +23,12 @@ section {
 
 #intro {
     padding-top: 0;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
+    z-index: -5;
 }
 
 .intro-container {
@@ -41,6 +49,24 @@ section {
     right: 0;
     position: absolute;
     z-index: -1;
+}
+
+#product {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
+}
+
+#priorities, #technologies, .ts-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: #0071bc;
+}
+
+#contact {
+    background: #0071bc;
 }
 
 h1, h2, h3, h4, h5 {

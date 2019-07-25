@@ -11,18 +11,32 @@
     font-size: 3em;
 }
 
-.product {
+.stt-partition {
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
+}
 
+.contact-header {
+    padding-bottom: 5%;
 }
 
 .icon {
 
 }
 
-.card {
+.tradesync-partition .card {
+    background-color: transparent;
+    border: none;
+}
+
+.stt-partition .card {
+    background-color: transparent;
+    border: none;
+}
+
+
+.about-container .card {
     background: transparent;
     border: none;
 }
@@ -30,7 +44,8 @@
 .about-container i,
 .about-container h1,
 .about-container h3,
-.about-container p {
+.about-container p,
+#contact h1 {
     color: #f1f1f0;
 }
 
@@ -39,17 +54,28 @@
     padding-left: 5%;
 }
 
-.stt-partition {
-    padding-top: 5%;
-    padding-bottom: 10%;
+.stt-container {
+    padding: 0;
+    height: 100%;
+    margin: 0;
 }
 
-#about {
-    padding-top: 4%;
-    padding-bottom: 4%;
-    background: rgb(1, 129, 214);
-    background: -moz-linear-gradient(319deg, rgba(1, 129, 214, 1) 0%, rgba(0, 113, 188, 1) 100%);
-    background: -webkit-linear-gradient(319deg, rgba(1, 129, 214, 1) 0%, rgba(0, 113, 188, 1) 100%);
-    background: linear-gradient(319deg, rgba(1, 129, 214, 1) 0%, rgba(0, 113, 188, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0181d6", endColorstr="#0071bc", GradientType=1);
+.stt {
+    position: relative;
+    width: 100%;
+
 }
+
+#tri {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    background: #0071bc;
+}
+
+#tri polyline {
+    fill: #ffffff;
+}
+
