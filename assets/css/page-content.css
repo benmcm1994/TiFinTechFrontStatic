@@ -4,7 +4,6 @@
 
 .about-container .icon {
     font-size: 5em;
-    text-shadow: -2px 0px 12px rgba(0, 0, 0, 0.49);
 }
 
 .product-container .icon {
@@ -48,7 +47,7 @@
 #contact h1,
 #technologies h1,
 #technologies p {
-    color: #0071bc;
+    color: #f1f1f0;
 }
 
 .product-container {

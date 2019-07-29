@@ -98,22 +98,22 @@
     top: 21px;
 }
 
+.bg-tradesync {
+    background: #2a1785;
+}
+
+.txt-tradesync {
+    color: #2a1785;
+}
+
 /*Phones */
 
 @media only screen and (max-width: 750px) {
-
-    #intro {
-        padding-bottom: 0;
-        height: 100vh;
-    }
 
     .navbar-brand {
         width: 55%;
     }
 
-    .circles {
-        width: 20%;
-    }
 
     .contact-form {
         padding-top: 10px;
