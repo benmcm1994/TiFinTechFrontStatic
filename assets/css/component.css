@@ -98,14 +98,6 @@
     top: 21px;
 }
 
-.bg-tradesync {
-    background: #2a1785;
-}
-
-.txt-tradesync {
-    color: #2a1785;
-}
-
 /*Phones */
 
 @media only screen and (max-width: 750px) {
