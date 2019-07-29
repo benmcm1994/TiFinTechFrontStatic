@@ -21,8 +21,8 @@
     padding-bottom: 5%;
 }
 
-.icon {
-
+.card {
+    height: 100%;
 }
 
 .tradesync-partition .card {
@@ -46,8 +46,9 @@
 .about-container h3,
 .about-container p,
 #contact h1,
-#technologies h1 {
-    color: #f1f1f0;
+#technologies h1,
+#technologies p {
+    color: #0071bc;
 }
 
 .product-container {
