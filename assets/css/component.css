@@ -102,6 +102,11 @@
 
 @media only screen and (max-width: 750px) {
 
+    #intro {
+        padding-bottom: 0;
+        height: 100vh;
+    }
+
     .navbar-brand {
         width: 55%;
     }
