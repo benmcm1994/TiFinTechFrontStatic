@@ -1,9 +1,5 @@
 /* Navbar */
 
-.navbar {
-    z-index: 1000;
-}
-
 .navbar-light .navbar-toggler {
     border: none;
 }
@@ -104,6 +100,15 @@
 
     .navbar-brand {
         width: 55%;
+    }
+
+    #intro {
+        padding-bottom: 22%;
+    }
+
+    #priorities, #product, #technologies, #about, #contact {
+        padding-top: 22%;
+        padding-bottom: 22%;
     }
 
 

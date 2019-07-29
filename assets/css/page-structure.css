@@ -9,8 +9,8 @@ body {
 }
 
 section {
-    padding-top: 11%;
-    padding-bottom: 11%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     position: relative;
     overflow: hidden;
 }
@@ -23,37 +23,40 @@ section {
 
 #intro {
     padding-top: 0;
-    padding-bottom: 0%;
-}
-
-.intro-header {
-    z-index: 5;
-}
-
-#intro .wrapper {
     background: url('../images/svg/slant.svg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 11%;
+    position: relative;
+    z-index: 5;
 }
 
-#intro::after {
+#intro::before {
     content: "";
     background-image: url("../images/content/currency-market.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.05;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: 1;
+    z-index: -2;
 }
 
-#product::after {
+#product {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
+    z-index: 5;
+}
+
+#product::before {
     content: "";
     background-image: url("../images/content/code.jpg");
     -webkit-background-size: cover;
@@ -66,26 +69,23 @@ section {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: 1;
+    z-index: -2;
 }
 
 .intro-header {
     padding-top: 5.3%;
 }
 
-#product {
-    background: rgb(255, 255, 255);
-    background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
-    background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
-    background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
-}
-
-#priorities, #technologies, .ts-container {
+#priorities, .ts-container {
     padding-top: 0;
     padding-bottom: 0;
     background: rgb(55, 72, 75);
     background: linear-gradient(90deg, rgba(55, 72, 75, 1) 0%, rgba(12, 36, 40, 1) 100%);
+}
+
+#technologies {
+    background: rgb(1, 153, 238);
+    background: linear-gradient(90deg, rgba(1, 153, 238, 1) 0%, rgba(0, 113, 188, 1) 100%);
 }
 
 #contact {
@@ -106,3 +106,8 @@ a:hover {
     color: #000000;
     text-decoration: none;
 }
+
+.tech-header {
+    padding-bottom: 5%;
+}
+
