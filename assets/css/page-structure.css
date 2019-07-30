@@ -72,6 +72,22 @@ section {
     z-index: -2;
 }
 
+#about::before {
+    content: "";
+    background-image: url("../images/content/numbers.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
 .intro-header {
     padding-top: 5.3%;
 }

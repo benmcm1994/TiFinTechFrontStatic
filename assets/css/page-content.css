@@ -20,9 +20,6 @@
     padding-bottom: 5%;
 }
 
-.card {
-    height: 100%;
-}
 
 .tradesync-partition .card {
     background-color: transparent;
@@ -45,8 +42,7 @@
 .about-container h3,
 .about-container p,
 #contact h1,
-#technologies h1,
-#technologies p {
+#technologies h1 {
     color: #f1f1f0;
 }
 
@@ -67,6 +63,8 @@
 
 }
 
+
+
 #tri {
     position: absolute;
     width: 100%;
@@ -80,3 +78,21 @@
     fill: #ffffff;
 }
 
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin-top: 50px;
+    height: 0;
+    -webkit-box-shadow: -1px 0px 50px -2px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: -1px 0px 50px -2px rgba(0, 0, 0, 0.55);
+    box-shadow: -1px 0px 50px -2px rgba(0, 0, 0, 0.55);
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
