@@ -111,6 +111,10 @@
     top: 21px;
 }
 
+.contact-form {
+    min-height: 463px;
+}
+
 /*Phones */
 
 @media only screen and (max-width: 750px) {
