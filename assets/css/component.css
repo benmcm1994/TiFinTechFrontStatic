@@ -111,6 +111,24 @@
     top: 21px;
 }
 
+i {
+    transition: 0.2s;
+}
+
+.background-primary {
+    transition: 0.2s;
+}
+
+.background-primary:hover {
+    color: #0071bc;
+    background: white;
+}
+
+i:hover {
+    color: #0071bc;
+
+}
+
 .contact-form {
     min-height: 463px;
 }
