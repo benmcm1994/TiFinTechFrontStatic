@@ -185,9 +185,9 @@ a:hover {
         vertical-align:  middle;
         background: rgb(255, 255, 255);
         font-size: 1.5em;
-        background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
-        background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
-        background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+        background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 0.95) 0%, rgba(237, 237, 237, 0.95) 100%);
+        background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 0.95) 0%, rgba(237, 237, 237, 0.95) 100%);
+        background: linear-gradient(133deg, rgba(255, 255, 255, 0.95) 0%, rgba(237, 237, 237, 0.95) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
         transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
         transition: transform .3s ease-in-out, visibility .3s ease-in-out;
