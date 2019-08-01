@@ -13,7 +13,7 @@ $(function () {
         toggleOffcanvas();
     })
 
-    $('.nav-item').on('click', function(){
+    $('.nav-link').on('click', function(){
         toggleOffcanvas();
     })
 })
