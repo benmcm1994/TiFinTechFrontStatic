@@ -1,7 +1,7 @@
 /* Navbar */
 
-.navbar-light .navbar-toggler {
-    border: none;
+.navbar-dark .navbar-toggler {
+    border: none !important;
 }
 
 .navbar-nav li.active > a {
@@ -17,6 +17,14 @@
     color: #0c2428 !important;
     transition: background 0.3s ease-in;
     text-decoration: none !important;
+}
+
+.fa.fa-navicon {
+    color: black;
+}
+
+.fa.fa-navicon:hover {
+    color: #0071bc;
 }
 
 .background-primary {

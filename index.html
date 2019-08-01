@@ -30,17 +30,16 @@
 <body>
 <section id="intro">
     <div class="container-fluid wrapper">
-        <nav class="navbar navbar-expand-xl navbar-light bg-transparent">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
             <div class="container-fluid py-2">
                 <a class="navbar-brand" href="/">
                     <img src="assets/images/logo/tft-text-lg.png" width="70%" alt="Titanium Financial Technology Logo"
                          id="navbar-logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button"  data-toggle="offcanvas">
+                    <i class="fa fa-navicon"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-collapse offcanvas-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a>
@@ -224,7 +223,6 @@
         </div>
     </div>
 </section>
-
 <section id="technologies">
     <div class="container technologies-container">
         <div class="row">
@@ -514,5 +512,6 @@
 <script>
     AOS.init();
 </script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

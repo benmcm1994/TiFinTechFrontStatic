@@ -116,12 +116,6 @@ section {
     }
 }
 
-
-
-
-
-
-
 .intro-header {
     padding-top: 5.3%;
 }
@@ -145,7 +139,7 @@ h1, h2, h3, h4, h5 {
     color: #0071bc;
 }
 
-p {
+a, p {
     font-family: 'Montserrat', sans-serif;
     color: #0c2428;
 }
@@ -159,3 +153,53 @@ a:hover {
     padding-bottom: 5%;
 }
 
+@media only screen and (max-width: 750px) {
+    #product h3 {
+        padding-top: 11%;
+    }
+
+    .navbar-nav li > a {
+        color: black !important;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px; /* Height of navbar */
+        bottom: 0;
+        left: -100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+        background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+        background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ededed", GradientType=1);
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        z-index: 100;
+    }
+
+    .offcanvas-collapse .navbar-nav li > a {
+        color: #0071bc !important;
+    }
+
+    .offcanvas-collapse .navbar-nav li.active > a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
