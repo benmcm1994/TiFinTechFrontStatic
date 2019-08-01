@@ -64,7 +64,6 @@
 }
 
 
-
 #tri {
     position: absolute;
     width: 100%;
@@ -76,6 +75,23 @@
 
 #tri polyline {
     fill: #ffffff;
+}
+
+#technologies i {
+    color: white;
+    transition: 0.2s;
+}
+
+#technologies i:hover {
+    color: black;
+}
+
+#technologies img {
+    transition: 0.2s;
+}
+
+#technologies img:hover {
+    filter: invert(100%);
 }
 
 .map-responsive {

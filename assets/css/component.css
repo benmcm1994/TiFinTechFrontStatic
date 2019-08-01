@@ -67,49 +67,6 @@
     background-color: transparent;
 }
 
-
-.circle-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.circle-icon {
-    color: #0071bc;
-    text-shadow: -2px 0px 12px rgba(0, 0, 0, 0.30);
-    -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: #0c2428;
-}
-
-#pound {
-    position: absolute;
-    left: 246px;
-    top: 104px;
-}
-
-#dollar {
-    position: absolute;
-    left: -38px;
-    top: 164px;
-}
-
-#yen {
-    position: absolute;
-    left: -128px;
-    top: -83px;
-}
-
-#euro {
-    position: absolute;
-    left: 106px;
-    top: -136px;
-}
-
-#rupee {
-    left: 53px;
-    top: 21px;
-}
-
 i {
     transition: 0.2s;
 }
@@ -121,6 +78,10 @@ i {
 .background-primary:hover {
     color: #0071bc;
     background: white;
+}
+
+.company-logo {
+    padding: 10px;
 }
 
 i:hover {
@@ -135,6 +96,14 @@ i:hover {
 /*Phones */
 
 @media only screen and (max-width: 750px) {
+
+    h1, h2, h3, h4, h5, p {
+        text-align: center;
+    }
+
+    .mobile-block-button {
+        width: 100%; display:block;
+    }
 
     .navbar-brand {
         width: 55%;

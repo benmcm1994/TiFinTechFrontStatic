@@ -8,6 +8,8 @@ body {
     height: 100%;
 }
 
+/* ---Sections--- */
+
 section {
     padding-top: 7%;
     padding-bottom: 7%;
@@ -15,11 +17,7 @@ section {
     overflow: hidden;
 }
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1300px;
-    }
-}
+/* Intro Section */
 
 #intro {
     padding-top: 0;
@@ -47,6 +45,17 @@ section {
     z-index: -2;
 }
 
+/* Priotity section */
+
+#priorities {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: rgb(55, 72, 75);
+    background: linear-gradient(90deg, rgba(55, 72, 75, 1) 0%, rgba(12, 36, 40, 1) 100%);
+}
+
+/* Product section */
+
 #product {
     background: rgb(255, 255, 255);
     background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
@@ -72,6 +81,17 @@ section {
     z-index: -2;
 }
 
+/* Technologies Section */
+
+#technologies {
+    background: rgb(1, 153, 238);
+    background: linear-gradient(90deg, rgba(1, 153, 238, 1) 0%, rgba(0, 113, 188, 1) 100%);
+}
+
+/* About Section */
+
+
+
 #about::before {
     content: "";
     background-image: url("../images/content/numbers.jpg");
@@ -88,21 +108,33 @@ section {
     z-index: -2;
 }
 
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+
+
+
+
+
+
 .intro-header {
     padding-top: 5.3%;
 }
 
-#priorities, .ts-container {
+
+.ts-container {
     padding-top: 0;
     padding-bottom: 0;
     background: rgb(55, 72, 75);
     background: linear-gradient(90deg, rgba(55, 72, 75, 1) 0%, rgba(12, 36, 40, 1) 100%);
 }
 
-#technologies {
-    background: rgb(1, 153, 238);
-    background: linear-gradient(90deg, rgba(1, 153, 238, 1) 0%, rgba(0, 113, 188, 1) 100%);
-}
+
 
 #contact {
     background: #0071bc;
@@ -123,7 +155,7 @@ a:hover {
     text-decoration: none;
 }
 
-.tech-header {
+.section-header {
     padding-bottom: 5%;
 }
 
