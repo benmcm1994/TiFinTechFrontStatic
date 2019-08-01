@@ -168,7 +168,7 @@ a:hover {
 
     .offcanvas-collapse {
         position: fixed;
-        top: 56px; /* Height of navbar */
+        top: 0; /* Height of navbar */
         bottom: 0;
         left: -100%;
         width: 100%;
@@ -177,7 +177,9 @@ a:hover {
         overflow-y: auto;
         visibility: hidden;
         text-align: center;
+        vertical-align:  middle;
         background: rgb(255, 255, 255);
+        font-size: 1.5em;
         background: -moz-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
         background: -webkit-linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
         background: linear-gradient(133deg, rgba(255, 255, 255, 1) 0%, rgba(237, 237, 237, 1) 100%);
@@ -202,4 +204,12 @@ a:hover {
         -webkit-transform: translateX(100%);
         transform: translateX(100%);
     }
+}
+
+.offcanvas-collapse .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }

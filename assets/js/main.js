@@ -1,9 +1,19 @@
 $(function () {
     'use strict'
 
-    console.log('test');
+    function toggleOffcanvas(){
+        $('.offcanvas-collapse').toggleClass('open')
+    }
+
+    $('.closebtn').on('click', function(){
+        toggleOffcanvas();
+    })
 
     $('[data-toggle="offcanvas"]').on('click', function () {
-        $('.offcanvas-collapse').toggleClass('open')
+        toggleOffcanvas();
+    })
+
+    $('.nav-item').on('click', function(){
+        toggleOffcanvas();
     })
 })
